@@ -1,0 +1,94 @@
+header {
+  width: auto;
+  height: 100vh;
+  padding-top: 4rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+.header__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/*################## CTA ################*/
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+/*############### REDES SOCIAIS #############*/ 
+.header__socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.header__socials::after {
+  content: "";
+  width: 2px;
+  height: 2rem;
+  background: var(--color-primary);
+  
+}
+
+/* ############## FOTO HEADER ######### */ 
+.me {
+  background: linear-gradient(var(--color-primary), transparent) ;
+  width: 20rem;
+  height: 25rem;
+  position: relative;
+  left: calc(50% - 10rem);
+  margin-top: 4rem;
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 1.5rem 2.4rem 2.4rem 2.4rem; 
+}
+
+/* ############## SCROLL ############*/
+
+.scroll__down {
+  position: absolute;
+  right: -2rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+/*###################### Media Queries (desktop) #####################*/
+@media screen and (min-width: 1025px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/*###################### Media Queries (Tablets) #####################*/
+@media screen and (max-width: 1024px) {
+  .container {
+    width: var(--container-width-md);
+  }
+  section {
+    margin-top: 6rem;
+  }
+}
+
+/*###################### Media Queries (Mobile) #####################*/
+@media screen and (max-width: 600px) {
+  .container {
+    width: var(--container-width-sm);
+  }
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
