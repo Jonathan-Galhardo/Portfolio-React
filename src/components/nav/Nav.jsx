@@ -5,15 +5,17 @@ import { BiUser } from "react-icons/bi"
 import { MdWorkOutline } from "react-icons/md"
 import { MdOutlineMiscellaneousServices } from "react-icons/md"
 import { MdOutlineContactPhone } from "react-icons/md"
+import { useState } from "react"
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#" className='active'><AiOutlineHome /></a>
-      <a href="#about"><BiUser /></a>
-      <a href="#experience"><MdWorkOutline /></a>
-      <a href="#services"><MdOutlineMiscellaneousServices /></a>
-      <a href="#contact"><MdOutlineContactPhone /></a>
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><BiUser /></a>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><MdWorkOutline /></a>
+      <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><MdOutlineMiscellaneousServices /></a>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><MdOutlineContactPhone /></a>
     </nav>
   )
 }
