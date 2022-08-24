@@ -63,6 +63,14 @@ header {
   font-weight: 300;
   font-size: 0.9rem;
 }
+
+/*###################### Media Queries (desktop) #####################*/
+@media screen and (min-width: 1025px) {
+  .container {
+    width: var(--container-width-lg);
+  }
+}
+
 /*###################### Media Queries (desktop) #####################*/
 @media screen and (min-width: 1025px) {
   .container {
