@@ -1,0 +1,7 @@
+.experience__container {
+  text-align: center;
+  margin: auto;
+  display:block;
+  grid-template-columns: 35% 50%;
+  gap: 15%;
+}
