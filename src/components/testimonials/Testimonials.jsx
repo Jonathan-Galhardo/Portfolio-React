@@ -15,42 +15,44 @@ const Testimonials = () => {
         <article className='testimonial'>
           <div className="client__avatar">
             <img src={AVAT1} alt="Avt1" />
-            <h5 className='client__name'>Nome Cliente</h5>
-            <small className='client__review'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
-            </small>
           </div>
+          <h5 className='client__name'>Nome Cliente</h5>
+          <small className='client__review'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
+          </small>
         </article>
 
         <article className='testimonial'>
           <div className="client__avatar">
             <img src={AVAT1} alt="Avt1" />
-            <h5 className='client__name'>Nome Cliente</h5>
-            <small className='client__review'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
-            </small>
           </div>
+          <h5 className='client__name'>Nome Cliente</h5>
+          <small className='client__review'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
+          </small>
         </article>
 
         <article className='testimonial'>
           <div className="client__avatar">
             <img src={AVAT1} alt="Avt1" />
-            <h5 className='client__name'>Nome Cliente</h5>
-            <small className='client__review'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
-            </small>
           </div>
+          <h5 className='client__name'>Nome Cliente</h5>
+          <small className='client__review'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
+          </small>
         </article>
 
         <article className='testimonial'>
           <div className="client__avatar">
             <img src={AVAT1} alt="Avt1" />
-            <h5 className='client__name'>Nome Cliente</h5>
-            <small className='client__review'>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
-            </small>
           </div>
+          <h5 className='client__name'>Nome Cliente</h5>
+          <small className='client__review'>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus ea rerum fuga, reiciendis voluptatibus totam, optio impedit pariatur obcaecati dolores quod iste provident voluptatum consequuntur, laborum accusantium? Fugit, molestiae deserunt!
+          </small>
         </article>
+
+
       </div>
     </section>
   )
