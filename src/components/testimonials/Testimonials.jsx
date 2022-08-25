@@ -5,6 +5,16 @@ import AVAT2 from '../../assets/avatar2.jpg'
 import AVAT3 from '../../assets/avatar3.jpg'
 import AVAT4 from '../../assets/avatar4.jpg'
 
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+
 const data = [
   {
     avatar: AVAT1,
@@ -14,7 +24,7 @@ const data = [
   {
     avatar: AVAT2,
     name: 'João Alencar',
-    review: 'Amet consectetur adipisicing elit. Et harum rem sint omnis sit, architecto labore veritatis atque cumque illo ratione consequatur voluptatum ipsa voluptate velit quaerat reprehenderit accusamus dolorem aut repellendus. Quia amet asperiores eum doloribus maxime. Magnam rem velit fugit necessitatibus quasi nobis?',
+    review: 'Amet consectetur omnis sit, architecto labore veritatis atque cumque illo ratione consequatur voluptatum ipsa voluptate velit quaerat reprehenderit accusamus dolorem aut repellendus. Quia amet asperiores eum doloribus maxime. Magnam rem velit fugit necessitatibus quasi nobis?',
   },
   {
     avatar: AVAT3,
@@ -23,8 +33,8 @@ const data = [
   },
   {
     avatar: AVAT4,
-    name: 'Maria Ritta',
-    review: 'Ipsum dolor sit, amet consectetur adipisicing elit. Alias, nulla libero. Natus molestiae velit eum corporis. Nihil minus est aspernatur facere, atque ducimus reiciendis pariatur possimus praesentium consequatur tenetur mollitia corrupti aperiam libero a veritatis quod. Dolorum eaque consectetur officia. Veritatis doloremque ab in ullam nulla fugit ducimus iure accusantium!',
+    name: 'Maria',
+    review: 'Alias, nulla libero. Natus molestiae velit eum corporis. Nihil minus est aspernatur facere, atque ducimus reiciendis pariatur possimus praesentium consequatur tenetur mollitia corrupti aperiam libero a veritatis quod. Dolorum e ure accusantium!',
   },
 ]
 
@@ -34,21 +44,30 @@ const Testimonials = () => {
       <h5>O que os clientes falam</h5>
       <h2>Depoimentos</h2>
 
-      <div className='container testimonials__container'>
+      <Swiper className='container testimonials__container'
+        // install Swiper modules
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
+        scrollbar={{ draggable: true }}
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log('slide change')}>
         {
           data.map(({ avatar, name, review }, index) => {
             return (
-              <article key={index} className='testimonial' >
+              <SwiperSlide key={index} className='testimonial' >
                 <div className="client__avatar">
                   <img src={avatar} />
                 </div>
                 <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>{review}</small>
-              </article>
+              </SwiperSlide>
             )
           })
         }
-      </div>
+      </Swiper>
     </section >
   )
 }
