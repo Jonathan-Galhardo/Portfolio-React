@@ -16,15 +16,15 @@ const Services = () => {
 
           <ul className='service__list'>
             <li>
-              <BsCheck2Circle className='service__list-icon' />
+              <div><BsCheck2Circle className='service__list-icon' /></div>
               <p>ACESSIBILIDADE: uso correto das semânticas HTML.</p>
             </li>
             <li>
-              <BsCheck2Circle className='service__list-icon' />
+              <div><BsCheck2Circle className='service__list-icon' /></div>
               <p>RESPONSIVIDADE: facilidade na navegação em todos os navegadores e dispositivos.</p>
             </li>
             <li>
-              <BsCheck2Circle className='service__list-icon' />
+              <div><BsCheck2Circle className='service__list-icon' /></div>
               <p>PERFORMANCE: Código limpo e eficiente, velocidade, peso de página, tempo de carregamento total.</p>
             </li>
           </ul>
