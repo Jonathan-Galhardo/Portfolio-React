@@ -11,7 +11,7 @@ const Services = () => {
       <div className='container services__container'>
         <article className='service'>
           <div className='service__head'>
-            <h3>Desenvolvimento de Interface</h3>
+            <h3>Desenvolvimento Web Frontend</h3>
           </div>
 
           <ul className='service__list'>
