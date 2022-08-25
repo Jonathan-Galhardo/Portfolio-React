@@ -28,7 +28,7 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG5} alt="" />
           </div>
-          <h3>Game: Valhalla Glória Eterna</h3>
+          <h3>Game: Valhalla</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jonathan-Galhardo/Valhalla_Gloria_Eterna" className='btn' target='_blank' rel="noreferrer">GitHub</a>
             <a href="https://valhalla-batalha-final.vercel.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Deploy</a>
