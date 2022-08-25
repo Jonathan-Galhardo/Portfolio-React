@@ -1,0 +1,14 @@
+services {
+  width: auto;
+  height: 100vh;
+  padding-top: 4rem;
+  overflow: hidden;
+  margin: auto;
+}
+
+.services__container {
+  text-align: center;
+  height: 100%;
+  position: relative;
+  margin: auto;
+}
