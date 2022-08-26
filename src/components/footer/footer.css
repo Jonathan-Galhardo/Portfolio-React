@@ -51,3 +51,11 @@ footer a {
   margin-bottom: -3rem;
   color: var(--color-bg);
 }
+
+/*###################### Media Queries (Mobile) #####################*/
+@media screen and (max-width: 600px) {
+  .links {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
