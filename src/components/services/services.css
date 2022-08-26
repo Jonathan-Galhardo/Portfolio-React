@@ -54,6 +54,7 @@
 
 /*###################### Media Queries (Tablets) #####################*/
 @media screen and (max-width: 1024px) {
+  
   .services__container {
     gap: 2rem;
   }

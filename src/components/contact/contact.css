@@ -59,4 +59,28 @@
     color: var(--color-white)
   }
 
+  /*###################### Media Queries (Tablets) #####################*/
+@media screen and (max-width: 1024px) {
+  .contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+}
+
+/*###################### Media Queries (Mobile) #####################*/
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: var(--container-width-sm);
+    
+  }
+  
+  .contact__container {
+    grid-template-columns: 1fr;
+    width: auto;
+   
+  }
+  
+}
+
  
