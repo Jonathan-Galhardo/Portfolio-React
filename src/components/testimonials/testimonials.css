@@ -40,7 +40,7 @@
 @media screen and (max-width: 1024px) {
   .container.testimonials__container {
     width: 60%;
-    height: auto;
+    
   }
 }
 
@@ -48,6 +48,7 @@
 @media screen and (max-width: 600px) {
   .container.testimonials__container {
     width: var(--container-width-sm);
+    height: auto;
   }
 
   .client__review {

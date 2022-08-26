@@ -18,23 +18,23 @@ const about = () => {
 
         <div className='about__content'>
           <div className='about__cards'>
-            <article className='about__card'>
+            <a href="#experience"><article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experiência</h5>
               <small>6+ meses</small>
-            </article>
+            </article></a>
 
-            <article className='about__card'>
+            <a href="#testimonials"><article className='about__card'>
               <FaUsers className='about__icon' />
               <h5>Clientes</h5>
               <small>Worldwide</small>
-            </article>
+            </article></a>
 
-            <article className='about__card'>
+            <a href="#portfolio"><article className='about__card'>
               <VscFolderLibrary className='about__icon' />
               <h5>Projetos</h5>
               <small>30+</small>
-            </article>
+            </article></a>
           </div>
 
           <p>
@@ -44,8 +44,8 @@ const about = () => {
           <a href="#contact" className='btn btn-primary'>Contato</a>
 
         </div>
-      </div>
-    </section>
+      </div >
+    </section >
   )
 }
 
