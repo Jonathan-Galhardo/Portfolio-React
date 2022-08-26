@@ -37,6 +37,11 @@
   gap: 1rem;
 }
 
+.experience__details-icon {
+  color: var(--color-primary);
+  font-size: 1.5rem;
+} 
+
 
 /*###################### Media Queries (Tablets) #####################*/
 @media screen and (max-width: 1024px) {

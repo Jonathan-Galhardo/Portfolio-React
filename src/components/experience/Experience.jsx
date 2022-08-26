@@ -17,14 +17,14 @@ const Experience = () => {
           <h3>Desenvolvedor Frontend</h3>
           <div className='experience__content'>
             <article className='experiencie__details'>
-              <AiOutlineHtml5 />
+              <AiOutlineHtml5 className='experience__details-icon' />
               <div>
                 <h4>HTML5</h4>
                 <small className='text-light'>Avançado</small>
               </div>
             </article>
             <article className='experiencie__details'>
-              <TbBrandCss3 />
+              <TbBrandCss3 className='experience__details-icon' />
               <div>
                 <h4>CSS3</h4>
                 <small className='text-light'>Avançado</small>
@@ -32,7 +32,7 @@ const Experience = () => {
             </article>
 
             <article className='experiencie__details'>
-              <TbBrandBootstrap />
+              <TbBrandBootstrap className='experience__details-icon' />
               <div>
                 <h4>Bootstrap</h4>
                 <small className='text-light'>Avançado</small>
@@ -40,7 +40,7 @@ const Experience = () => {
             </article>
 
             <article className='experiencie__details'>
-              <DiJavascript1 />
+              <DiJavascript1 className='experience__details-icon' />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Intermediário</small>
@@ -48,7 +48,7 @@ const Experience = () => {
             </article>
 
             <article className='experiencie__details'>
-              <FaReact />
+              <FaReact className='experience__details-icon' />
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Básico</small>
