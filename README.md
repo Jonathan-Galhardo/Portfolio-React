@@ -2,7 +2,7 @@
 ## Desenvolvedor Web Frontend
 ## Este projeto foi criado com React App.
 
-![responsividade](https://user-images.githubusercontent.com/89818336/187199292-9b7787af-934d-4287-a16d-849358b15bfa.png)
+![responsividade](https://user-images.githubusercontent.com/89818336/187203065-be583053-64c3-4b45-b53a-78c0a9b20176.png)
 
 ## Deploy da aplicação
 https://portfolio-react-two-psi.vercel.app
