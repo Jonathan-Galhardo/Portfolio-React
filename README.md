@@ -1,5 +1,5 @@
 # Portfólio Jonathan Galhardo 
-## Desenvolvedor Web Frontend
+### Desenvolvedor Web Frontend
 ## Este projeto foi criado com React App.
 
 ![responsividade](https://user-images.githubusercontent.com/89818336/187203065-be583053-64c3-4b45-b53a-78c0a9b20176.png)
