@@ -1,6 +1,8 @@
 # Introdução ao Create React App
 ## Este projeto foi inicializado com Create React App .
 
+![responsividade](https://user-images.githubusercontent.com/89818336/187199292-9b7787af-934d-4287-a16d-849358b15bfa.png)
+
 ## Scripts Disponíveis
 No diretório do projeto, você pode executar:
 
