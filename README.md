@@ -9,8 +9,8 @@ https://portfolio-react-two-psi.vercel.app
 
 ## Tecnologias utilizadas: 
 - React
-- CSS 
-- HTML
+- CSS3
+- HTML5
 
 ## Estrutura do site:
 - Home: Disponibilizado o download do CV atualizado. 
