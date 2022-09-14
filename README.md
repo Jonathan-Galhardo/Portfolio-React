@@ -1,57 +1,33 @@
-# Introdução ao Create React App
-## Este projeto foi inicializado com Create React App .
+# Portfólio Jonathan Galhardo 
+### Desenvolvedor Web Frontend
+## Este projeto foi criado com React App.
 
-## Scripts Disponíveis
-No diretório do projeto, você pode executar:
+![responsividade](https://user-images.githubusercontent.com/89818336/187203065-be583053-64c3-4b45-b53a-78c0a9b20176.png)
 
-## npm start
-Executa o aplicativo no modo de desenvolvimento.
-Abra http://localhost:3000 para visualizá-lo em seu navegador.
+## Deploy da aplicação
+https://portfolio-react-two-psi.vercel.app
 
-## A página será recarregada quando você fizer alterações.
-Você também pode ver erros de lint no console.
+## Tecnologias utilizadas: 
+- React
+- CSS3
+- HTML5
 
-## npm test
-Inicia o executor de teste no modo de relógio interativo.
-Consulte a seção sobre como executar testes para obter mais informações.
+## Estrutura do site:
+- Home: Disponibilizado o download do CV atualizado. 
+- Bio: Informações e diversos links para navegação rápida e precisa pelo site.
+- Tecnologias: Tecnologias nas quais o desenvolvedor tem conhecimentos e o nível de senioridade. 
+- Serviços: Serviços oferecidos pelo desenvolvedor. 
+- Portfólio: Últimos projetos desenvolvidos. 
+- Depoimentos: Criado de forma dinâmica através de Arrays. 
+- Contato: Quando o usuário preencher o formulário de contato e clicar no botão enviar será encaminhado a mensagem diratamente a caixa de emails do desenvolvedor. Para realizar essa função foi utilizado o "emailjs". 
 
-## npm run build
-Compila o aplicativo para produção na buildpasta.
-Ele agrupa corretamente o React no modo de produção e otimiza a compilação para o melhor desempenho.
+## Desafios superados durante o desenvolvimento do projeto: 
+Esse foi o meu primeiro projeto utilizando o React. Para fins de aprendizagem dividi cada sessão do projeto em arquivos (CSS e JSX) separados, o que possibilitou maior entendimento do funcionamento da ferramenta React. Outro importante desafio foi realizar a responsividade do site somente com ajustes nos arquivos CSS. 
 
-A compilação é minificada e os nomes dos arquivos incluem os hashes.
-Seu aplicativo está pronto para ser implantado!
+## Responsividade:
+Visando a facilidade da navegação em todos os dispositivos o site foi criado com três versões: uma para notbook, outra para tablets e outrta para smartphones. 
 
-Consulte a seção sobre implantação para obter mais informações.
+## Desenvolvedor:
+Jonathan Galhardo - Dev Frontend (55) 9.8438-9850
 
-## npm run eject
-Nota: esta é uma operação unidirecional. Uma vez que você eject, você não pode voltar!
 
-Se você não estiver satisfeito com a ferramenta de compilação e as opções de configuração, poderá fazê-lo ejecta qualquer momento. Este comando removerá a dependência de compilação única do seu projeto.
-
-Em vez disso, ele copiará todos os arquivos de configuração e as dependências transitivas (webpack, Babel, ESLint, etc) diretamente em seu projeto para que você tenha controle total sobre eles. Todos os comandos, exceto eject, ainda funcionarão, mas eles apontarão para os scripts copiados para que você possa ajustá-los. Neste ponto você está por conta própria.
-
-Você não precisa usar nunca eject. O conjunto de recursos com curadoria é adequado para implantações pequenas e médias, e você não deve se sentir obrigado a usar esse recurso. No entanto, entendemos que essa ferramenta não seria útil se você não pudesse personalizá-la quando estiver pronto para isso.
-
-## Saber mais
-Você pode aprender mais na documentação do Create React App .
-
-Para aprender o React, confira a documentação do React .
-
-## Divisão de código
-Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/code-splitting
-
-## Analisando o tamanho do pacote
-Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-## Fazendo um aplicativo da Web progressivo
-Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-## Configuração avançada
-Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-## Implantação
-Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/deployment
-
-## npm run buildnão consegue minificar
-Esta seção foi movida para aqui: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
