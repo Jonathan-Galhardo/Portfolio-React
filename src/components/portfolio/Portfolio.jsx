@@ -20,7 +20,7 @@ const Portfolio = () => {
           <h3>Orçamento Pessoal</h3>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/Jonathan-Galhardo/Orcamento-Pessoal" className='btn' target='_blank' rel="noreferrer">GitHub</a>
-            <a href="#" className='btn btn-primary' target='_blank'>Deploy</a>
+            <a href="https://orcamento-pessoal-two.vercel.app/" className='btn btn-primary' target='_blank' rel="noreferrer">Deploy</a>
           </div>
         </article>
 
