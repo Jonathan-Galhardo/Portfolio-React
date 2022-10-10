@@ -1,11 +1,11 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from "../../assets/section_depoiments.png"
-import IMG2 from "../../assets/calc_gorjeta.png"
-import IMG3 from "../../assets/clt_pj.png"
-import IMG4 from "../../assets/calc.png"
-import IMG5 from "../../assets/valhalla.png"
-import IMG6 from "../../assets/orcamento_pessoal.jpg"
+import IMG1 from "../../assets/section_depoiments.webp"
+import IMG2 from "../../assets/calc_gorjeta.webp"
+import IMG3 from "../../assets/clt_pj.webp"
+import IMG4 from "../../assets/calc.webp"
+import IMG5 from "../../assets/valhalla.webp"
+import IMG6 from "../../assets/orcamento_pessoal.webp"
 
 const Portfolio = () => {
   return (
